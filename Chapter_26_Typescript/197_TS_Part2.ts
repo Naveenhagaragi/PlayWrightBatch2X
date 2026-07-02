@@ -30,3 +30,4 @@ let user: { name: string; age: number } = {
 
 console.log(user);
 console.log(user.name, user.age);
+console.log(`${user.name}\n${user.age}`);

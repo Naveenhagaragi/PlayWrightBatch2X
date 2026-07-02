@@ -12,12 +12,16 @@ let notDefined: undefined = undefined;
 // Arrays
 let numbers: number[] = [1, 2, 3];
 let names: Array<string> = ["John", "Jane"];
+// similar to below
+let names1: string[] = ["Naveen", "Ishaan", "Shriyan"];
 
 // Any (avoid when possible)
 let anything: any = "hello";
+console.log(typeof anything);  // when "hello" is assigned, typeof anything becomes string
 
 // Unknown (safer than any)
 let unknown: unknown = "hello";
+console.log(typeof unknown); //when "hello" is assigned, typeof unknown becomes string
 
 
 let message: string = "Hello, TypeScript!";
