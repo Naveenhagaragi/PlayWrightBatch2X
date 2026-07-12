@@ -22,8 +22,10 @@ let test2: TestCase = {
 };
 console.log("TC-" + test2.id + ": " + test2.name + " → " + test2.status);
 
-// let test3: TestCase = {
-//     id: 1,
-//     name: "Login with valid credentials",
-//     status: "PASS",
-// };
+let test3: TestCase = {
+    id: 3,
+    name: "Login with valid credentials",
+    status: "PASS",
+    duration: 2000
+};
+console.log("TC-" + test3.id + ":" + test3.name + " -> " + test3.status + " -executed in " + test3.duration + "ms");
