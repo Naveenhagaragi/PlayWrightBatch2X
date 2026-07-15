@@ -6,6 +6,8 @@
         "target": "es2022",
         "module": "commonjs",
         "moduleResolution": "node",
+        // silence deprecation about moduleResolution=node10 for TS 7 migration
+        "ignoreDeprecations": "6.0",
         "strict": true,
         "skipLibCheck": true,
         "types": []

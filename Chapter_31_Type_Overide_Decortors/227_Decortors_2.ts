@@ -13,8 +13,8 @@ class Greeter {
     }
 }
 
-let r = new Greeter().hello();
-console.log(r);
+let r1 = new Greeter().hello();
+console.log(r1);
 
 //Practice
 

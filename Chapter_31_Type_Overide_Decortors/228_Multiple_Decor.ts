@@ -20,8 +20,8 @@ class Dog {
     }
 }
 
-let r = new Dog().bark();
-console.log(r);
+let r2 = new Dog().bark();
+console.log(r2);
 // tsconfig needs to be there in same folder to execute this code, else below code will use tsconfig file from main folder
 
 //Practice
@@ -52,5 +52,5 @@ console.log(r);
 //     }
 // }
 
-// let r = new Dog().bark();
-// console.log(r);
+// let r2 = new Dog().bark();
+// console.log(r2);
